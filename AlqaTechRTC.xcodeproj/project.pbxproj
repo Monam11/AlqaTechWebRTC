@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A08C3E612126E72900284055 /* AlqaTechRTC.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E5F2126E72900284055 /* AlqaTechRTC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08C3E9D2126E73700284055 /* RCPresenceEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E682126E73700284055 /* RCPresenceEvent.m */; };
+		A08C3E9E2126E73700284055 /* RCDeviceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E692126E73700284055 /* RCDeviceDelegate.h */; };
+		A08C3E9F2126E73700284055 /* common.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E6A2126E73700284055 /* common.m */; };
+		A08C3EA02126E73700284055 /* RCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E6B2126E73700284055 /* RCUtilities.h */; };
+		A08C3EA12126E73700284055 /* SettingsNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E6C2126E73700284055 /* SettingsNavigationController.h */; };
+		A08C3EA22126E73700284055 /* RestCommClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E6D2126E73700284055 /* RestCommClient.m */; };
+		A08C3EA32126E73700284055 /* RCConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E6E2126E73700284055 /* RCConnectionDelegate.h */; };
+		A08C3EA42126E73700284055 /* RCConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E6F2126E73700284055 /* RCConnection.h */; };
+		A08C3EA52126E73700284055 /* RestCommClient-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E702126E73700284055 /* RestCommClient-Prefix.pch */; };
+		A08C3EA62126E73700284055 /* RCClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E712126E73700284055 /* RCClient.h */; };
+		A08C3EA72126E73700284055 /* RCDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E722126E73700284055 /* RCDevice.h */; };
+		A08C3EA82126E73700284055 /* RCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E732126E73700284055 /* RCUtilities.m */; };
+		A08C3EA92126E73700284055 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E742126E73700284055 /* common.h */; };
+		A08C3EAA2126E73700284055 /* RCDeviceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E752126E73700284055 /* RCDeviceDelegate.m */; };
+		A08C3EAB2126E73700284055 /* RCPresenceEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E762126E73700284055 /* RCPresenceEvent.h */; };
+		A08C3EAC2126E73700284055 /* RCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E772126E73700284055 /* RCConnection.m */; };
+		A08C3EAD2126E73700284055 /* RCConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E782126E73700284055 /* RCConnectionDelegate.m */; };
+		A08C3EAE2126E73700284055 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E7A2126E73700284055 /* Reachability.m */; };
+		A08C3EAF2126E73700284055 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E7B2126E73700284055 /* Reachability.h */; };
+		A08C3EB02126E73700284055 /* RestCommClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E7C2126E73700284055 /* RestCommClient.h */; };
+		A08C3EB12126E73700284055 /* SipManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E7E2126E73700284055 /* SipManager.mm */; };
+		A08C3EB22126E73700284055 /* SipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E7F2126E73700284055 /* SipManager.h */; };
+		A08C3EB32126E73700284055 /* RCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E802126E73700284055 /* RCClient.m */; };
+		A08C3EB42126E73700284055 /* sdp_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E822126E73700284055 /* sdp_utils.h */; };
+		A08C3EB52126E73700284055 /* cli_common.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E832126E73700284055 /* cli_common.h */; };
+		A08C3EB62126E73700284055 /* sofsip_cli.mm in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E842126E73700284055 /* sofsip_cli.mm */; };
+		A08C3EB72126E73700284055 /* ssc_sip.mm in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E852126E73700284055 /* ssc_sip.mm */; };
+		A08C3EB82126E73700284055 /* ssc_oper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E862126E73700284055 /* ssc_oper.mm */; };
+		A08C3EB92126E73700284055 /* ssc_input.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E872126E73700284055 /* ssc_input.h */; };
+		A08C3EBA2126E73700284055 /* sdp_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E882126E73700284055 /* sdp_utils.cpp */; };
+		A08C3EBB2126E73700284055 /* ssc_media_simple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E892126E73700284055 /* ssc_media_simple.cpp */; };
+		A08C3EBC2126E73700284055 /* sofsip_cli.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E8A2126E73700284055 /* sofsip_cli.h */; };
+		A08C3EBD2126E73700284055 /* ssc_sip.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E8B2126E73700284055 /* ssc_sip.h */; };
+		A08C3EBE2126E73700284055 /* ssc_input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E8C2126E73700284055 /* ssc_input.cpp */; };
+		A08C3EBF2126E73700284055 /* ssc_media_simple.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E8D2126E73700284055 /* ssc_media_simple.h */; };
+		A08C3EC02126E73700284055 /* ssc_oper.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E8E2126E73700284055 /* ssc_oper.h */; };
+		A08C3EC12126E73700284055 /* RCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E8F2126E73700284055 /* RCDevice.m */; };
+		A08C3EC22126E73700284055 /* MediaWebRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E912126E73700284055 /* MediaWebRTC.m */; };
+		A08C3EC32126E73700284055 /* ARDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E922126E73700284055 /* ARDUtilities.m */; };
+		A08C3EC42126E73700284055 /* ARDCEODTURNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E932126E73700284055 /* ARDCEODTURNClient.m */; };
+		A08C3EC52126E73700284055 /* ARDTURNClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E942126E73700284055 /* ARDTURNClient.h */; };
+		A08C3EC62126E73700284055 /* XirsysTURNClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E952126E73700284055 /* XirsysTURNClient.h */; };
+		A08C3EC72126E73700284055 /* RTCICEServer+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E962126E73700284055 /* RTCICEServer+JSON.m */; };
+		A08C3EC82126E73700284055 /* ARDCEODTURNClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E972126E73700284055 /* ARDCEODTURNClient.h */; };
+		A08C3EC92126E73700284055 /* ARDUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E982126E73700284055 /* ARDUtilities.h */; };
+		A08C3ECA2126E73700284055 /* MediaWebRTC.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E992126E73700284055 /* MediaWebRTC.h */; };
+		A08C3ECB2126E73700284055 /* XirsysTURNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C3E9A2126E73700284055 /* XirsysTURNClient.m */; };
+		A08C3ECC2126E73700284055 /* ARDAppClient+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E9B2126E73700284055 /* ARDAppClient+Internal.h */; };
+		A08C3ECD2126E73700284055 /* RTCICEServer+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A08C3E9C2126E73700284055 /* RTCICEServer+JSON.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A08C3E5C2126E72900284055 /* AlqaTechRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlqaTechRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C3E5F2126E72900284055 /* AlqaTechRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlqaTechRTC.h; sourceTree = "<group>"; };
+		A08C3E602126E72900284055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08C3E682126E73700284055 /* RCPresenceEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPresenceEvent.m; sourceTree = "<group>"; };
+		A08C3E692126E73700284055 /* RCDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDeviceDelegate.h; sourceTree = "<group>"; };
+		A08C3E6A2126E73700284055 /* common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = common.m; sourceTree = "<group>"; };
+		A08C3E6B2126E73700284055 /* RCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUtilities.h; sourceTree = "<group>"; };
+		A08C3E6C2126E73700284055 /* SettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsNavigationController.h; sourceTree = "<group>"; };
+		A08C3E6D2126E73700284055 /* RestCommClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestCommClient.m; sourceTree = "<group>"; };
+		A08C3E6E2126E73700284055 /* RCConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCConnectionDelegate.h; sourceTree = "<group>"; };
+		A08C3E6F2126E73700284055 /* RCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCConnection.h; sourceTree = "<group>"; };
+		A08C3E702126E73700284055 /* RestCommClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RestCommClient-Prefix.pch"; sourceTree = "<group>"; };
+		A08C3E712126E73700284055 /* RCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCClient.h; sourceTree = "<group>"; };
+		A08C3E722126E73700284055 /* RCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDevice.h; sourceTree = "<group>"; };
+		A08C3E732126E73700284055 /* RCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUtilities.m; sourceTree = "<group>"; };
+		A08C3E742126E73700284055 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		A08C3E752126E73700284055 /* RCDeviceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDeviceDelegate.m; sourceTree = "<group>"; };
+		A08C3E762126E73700284055 /* RCPresenceEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPresenceEvent.h; sourceTree = "<group>"; };
+		A08C3E772126E73700284055 /* RCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCConnection.m; sourceTree = "<group>"; };
+		A08C3E782126E73700284055 /* RCConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCConnectionDelegate.m; sourceTree = "<group>"; };
+		A08C3E7A2126E73700284055 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A08C3E7B2126E73700284055 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A08C3E7C2126E73700284055 /* RestCommClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestCommClient.h; sourceTree = "<group>"; };
+		A08C3E7E2126E73700284055 /* SipManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SipManager.mm; sourceTree = "<group>"; };
+		A08C3E7F2126E73700284055 /* SipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SipManager.h; sourceTree = "<group>"; };
+		A08C3E802126E73700284055 /* RCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCClient.m; sourceTree = "<group>"; };
+		A08C3E822126E73700284055 /* sdp_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdp_utils.h; sourceTree = "<group>"; };
+		A08C3E832126E73700284055 /* cli_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cli_common.h; sourceTree = "<group>"; };
+		A08C3E842126E73700284055 /* sofsip_cli.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = sofsip_cli.mm; sourceTree = "<group>"; };
+		A08C3E852126E73700284055 /* ssc_sip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ssc_sip.mm; sourceTree = "<group>"; };
+		A08C3E862126E73700284055 /* ssc_oper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ssc_oper.mm; sourceTree = "<group>"; };
+		A08C3E872126E73700284055 /* ssc_input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssc_input.h; sourceTree = "<group>"; };
+		A08C3E882126E73700284055 /* sdp_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sdp_utils.cpp; sourceTree = "<group>"; };
+		A08C3E892126E73700284055 /* ssc_media_simple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssc_media_simple.cpp; sourceTree = "<group>"; };
+		A08C3E8A2126E73700284055 /* sofsip_cli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sofsip_cli.h; sourceTree = "<group>"; };
+		A08C3E8B2126E73700284055 /* ssc_sip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssc_sip.h; sourceTree = "<group>"; };
+		A08C3E8C2126E73700284055 /* ssc_input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssc_input.cpp; sourceTree = "<group>"; };
+		A08C3E8D2126E73700284055 /* ssc_media_simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssc_media_simple.h; sourceTree = "<group>"; };
+		A08C3E8E2126E73700284055 /* ssc_oper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssc_oper.h; sourceTree = "<group>"; };
+		A08C3E8F2126E73700284055 /* RCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDevice.m; sourceTree = "<group>"; };
+		A08C3E912126E73700284055 /* MediaWebRTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaWebRTC.m; sourceTree = "<group>"; };
+		A08C3E922126E73700284055 /* ARDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDUtilities.m; sourceTree = "<group>"; };
+		A08C3E932126E73700284055 /* ARDCEODTURNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDCEODTURNClient.m; sourceTree = "<group>"; };
+		A08C3E942126E73700284055 /* ARDTURNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDTURNClient.h; sourceTree = "<group>"; };
+		A08C3E952126E73700284055 /* XirsysTURNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XirsysTURNClient.h; sourceTree = "<group>"; };
+		A08C3E962126E73700284055 /* RTCICEServer+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCICEServer+JSON.m"; sourceTree = "<group>"; };
+		A08C3E972126E73700284055 /* ARDCEODTURNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDCEODTURNClient.h; sourceTree = "<group>"; };
+		A08C3E982126E73700284055 /* ARDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDUtilities.h; sourceTree = "<group>"; };
+		A08C3E992126E73700284055 /* MediaWebRTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaWebRTC.h; sourceTree = "<group>"; };
+		A08C3E9A2126E73700284055 /* XirsysTURNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XirsysTURNClient.m; sourceTree = "<group>"; };
+		A08C3E9B2126E73700284055 /* ARDAppClient+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARDAppClient+Internal.h"; sourceTree = "<group>"; };
+		A08C3E9C2126E73700284055 /* RTCICEServer+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCICEServer+JSON.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A08C3E582126E72900284055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A08C3E522126E72900284055 = {
+			isa = PBXGroup;
+			children = (
+				A08C3E5E2126E72900284055 /* AlqaTechRTC */,
+				A08C3E5D2126E72900284055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A08C3E5D2126E72900284055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A08C3E5C2126E72900284055 /* AlqaTechRTC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A08C3E5E2126E72900284055 /* AlqaTechRTC */ = {
+			isa = PBXGroup;
+			children = (
+				A08C3E672126E73700284055 /* Classes */,
+				A08C3E5F2126E72900284055 /* AlqaTechRTC.h */,
+				A08C3E602126E72900284055 /* Info.plist */,
+			);
+			path = AlqaTechRTC;
+			sourceTree = "<group>";
+		};
+		A08C3E672126E73700284055 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A08C3E682126E73700284055 /* RCPresenceEvent.m */,
+				A08C3E692126E73700284055 /* RCDeviceDelegate.h */,
+				A08C3E6A2126E73700284055 /* common.m */,
+				A08C3E6B2126E73700284055 /* RCUtilities.h */,
+				A08C3E6C2126E73700284055 /* SettingsNavigationController.h */,
+				A08C3E6D2126E73700284055 /* RestCommClient.m */,
+				A08C3E6E2126E73700284055 /* RCConnectionDelegate.h */,
+				A08C3E6F2126E73700284055 /* RCConnection.h */,
+				A08C3E702126E73700284055 /* RestCommClient-Prefix.pch */,
+				A08C3E712126E73700284055 /* RCClient.h */,
+				A08C3E722126E73700284055 /* RCDevice.h */,
+				A08C3E732126E73700284055 /* RCUtilities.m */,
+				A08C3E742126E73700284055 /* common.h */,
+				A08C3E752126E73700284055 /* RCDeviceDelegate.m */,
+				A08C3E762126E73700284055 /* RCPresenceEvent.h */,
+				A08C3E772126E73700284055 /* RCConnection.m */,
+				A08C3E782126E73700284055 /* RCConnectionDelegate.m */,
+				A08C3E792126E73700284055 /* Reachability */,
+				A08C3E7C2126E73700284055 /* RestCommClient.h */,
+				A08C3E7D2126E73700284055 /* SipManager */,
+				A08C3E802126E73700284055 /* RCClient.m */,
+				A08C3E812126E73700284055 /* CliInterface */,
+				A08C3E8F2126E73700284055 /* RCDevice.m */,
+				A08C3E902126E73700284055 /* Media */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A08C3E792126E73700284055 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A08C3E7A2126E73700284055 /* Reachability.m */,
+				A08C3E7B2126E73700284055 /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		A08C3E7D2126E73700284055 /* SipManager */ = {
+			isa = PBXGroup;
+			children = (
+				A08C3E7E2126E73700284055 /* SipManager.mm */,
+				A08C3E7F2126E73700284055 /* SipManager.h */,
+			);
+			path = SipManager;
+			sourceTree = "<group>";
+		};
+		A08C3E812126E73700284055 /* CliInterface */ = {
+			isa = PBXGroup;
+			children = (
+				A08C3E822126E73700284055 /* sdp_utils.h */,
+				A08C3E832126E73700284055 /* cli_common.h */,
+				A08C3E842126E73700284055 /* sofsip_cli.mm */,
+				A08C3E852126E73700284055 /* ssc_sip.mm */,
+				A08C3E862126E73700284055 /* ssc_oper.mm */,
+				A08C3E872126E73700284055 /* ssc_input.h */,
+				A08C3E882126E73700284055 /* sdp_utils.cpp */,
+				A08C3E892126E73700284055 /* ssc_media_simple.cpp */,
+				A08C3E8A2126E73700284055 /* sofsip_cli.h */,
+				A08C3E8B2126E73700284055 /* ssc_sip.h */,
+				A08C3E8C2126E73700284055 /* ssc_input.cpp */,
+				A08C3E8D2126E73700284055 /* ssc_media_simple.h */,
+				A08C3E8E2126E73700284055 /* ssc_oper.h */,
+			);
+			path = CliInterface;
+			sourceTree = "<group>";
+		};
+		A08C3E902126E73700284055 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				A08C3E912126E73700284055 /* MediaWebRTC.m */,
+				A08C3E922126E73700284055 /* ARDUtilities.m */,
+				A08C3E932126E73700284055 /* ARDCEODTURNClient.m */,
+				A08C3E942126E73700284055 /* ARDTURNClient.h */,
+				A08C3E952126E73700284055 /* XirsysTURNClient.h */,
+				A08C3E962126E73700284055 /* RTCICEServer+JSON.m */,
+				A08C3E972126E73700284055 /* ARDCEODTURNClient.h */,
+				A08C3E982126E73700284055 /* ARDUtilities.h */,
+				A08C3E992126E73700284055 /* MediaWebRTC.h */,
+				A08C3E9A2126E73700284055 /* XirsysTURNClient.m */,
+				A08C3E9B2126E73700284055 /* ARDAppClient+Internal.h */,
+				A08C3E9C2126E73700284055 /* RTCICEServer+JSON.h */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A08C3E592126E72900284055 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08C3EC02126E73700284055 /* ssc_oper.h in Headers */,
+				A08C3EA32126E73700284055 /* RCConnectionDelegate.h in Headers */,
+				A08C3EC92126E73700284055 /* ARDUtilities.h in Headers */,
+				A08C3ECD2126E73700284055 /* RTCICEServer+JSON.h in Headers */,
+				A08C3EBF2126E73700284055 /* ssc_media_simple.h in Headers */,
+				A08C3EBC2126E73700284055 /* sofsip_cli.h in Headers */,
+				A08C3EA92126E73700284055 /* common.h in Headers */,
+				A08C3EB52126E73700284055 /* cli_common.h in Headers */,
+				A08C3E9E2126E73700284055 /* RCDeviceDelegate.h in Headers */,
+				A08C3EA12126E73700284055 /* SettingsNavigationController.h in Headers */,
+				A08C3EC52126E73700284055 /* ARDTURNClient.h in Headers */,
+				A08C3EBD2126E73700284055 /* ssc_sip.h in Headers */,
+				A08C3EAB2126E73700284055 /* RCPresenceEvent.h in Headers */,
+				A08C3EC82126E73700284055 /* ARDCEODTURNClient.h in Headers */,
+				A08C3EC62126E73700284055 /* XirsysTURNClient.h in Headers */,
+				A08C3EB92126E73700284055 /* ssc_input.h in Headers */,
+				A08C3EA02126E73700284055 /* RCUtilities.h in Headers */,
+				A08C3EA62126E73700284055 /* RCClient.h in Headers */,
+				A08C3EB02126E73700284055 /* RestCommClient.h in Headers */,
+				A08C3E612126E72900284055 /* AlqaTechRTC.h in Headers */,
+				A08C3EB42126E73700284055 /* sdp_utils.h in Headers */,
+				A08C3EB22126E73700284055 /* SipManager.h in Headers */,
+				A08C3EA72126E73700284055 /* RCDevice.h in Headers */,
+				A08C3ECA2126E73700284055 /* MediaWebRTC.h in Headers */,
+				A08C3ECC2126E73700284055 /* ARDAppClient+Internal.h in Headers */,
+				A08C3EAF2126E73700284055 /* Reachability.h in Headers */,
+				A08C3EA52126E73700284055 /* RestCommClient-Prefix.pch in Headers */,
+				A08C3EA42126E73700284055 /* RCConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A08C3E5B2126E72900284055 /* AlqaTechRTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08C3E642126E72900284055 /* Build configuration list for PBXNativeTarget "AlqaTechRTC" */;
+			buildPhases = (
+				A08C3E572126E72900284055 /* Sources */,
+				A08C3E582126E72900284055 /* Frameworks */,
+				A08C3E592126E72900284055 /* Headers */,
+				A08C3E5A2126E72900284055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlqaTechRTC;
+			productName = AlqaTechRTC;
+			productReference = A08C3E5C2126E72900284055 /* AlqaTechRTC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A08C3E532126E72900284055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = AlqaTech;
+				TargetAttributes = {
+					A08C3E5B2126E72900284055 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A08C3E562126E72900284055 /* Build configuration list for PBXProject "AlqaTechRTC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A08C3E522126E72900284055;
+			productRefGroup = A08C3E5D2126E72900284055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A08C3E5B2126E72900284055 /* AlqaTechRTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A08C3E5A2126E72900284055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A08C3E572126E72900284055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08C3EAC2126E73700284055 /* RCConnection.m in Sources */,
+				A08C3EA22126E73700284055 /* RestCommClient.m in Sources */,
+				A08C3EAE2126E73700284055 /* Reachability.m in Sources */,
+				A08C3EC22126E73700284055 /* MediaWebRTC.m in Sources */,
+				A08C3EC72126E73700284055 /* RTCICEServer+JSON.m in Sources */,
+				A08C3EBB2126E73700284055 /* ssc_media_simple.cpp in Sources */,
+				A08C3EBA2126E73700284055 /* sdp_utils.cpp in Sources */,
+				A08C3EAD2126E73700284055 /* RCConnectionDelegate.m in Sources */,
+				A08C3EBE2126E73700284055 /* ssc_input.cpp in Sources */,
+				A08C3ECB2126E73700284055 /* XirsysTURNClient.m in Sources */,
+				A08C3EB62126E73700284055 /* sofsip_cli.mm in Sources */,
+				A08C3EA82126E73700284055 /* RCUtilities.m in Sources */,
+				A08C3E9F2126E73700284055 /* common.m in Sources */,
+				A08C3EC32126E73700284055 /* ARDUtilities.m in Sources */,
+				A08C3EB12126E73700284055 /* SipManager.mm in Sources */,
+				A08C3EB32126E73700284055 /* RCClient.m in Sources */,
+				A08C3E9D2126E73700284055 /* RCPresenceEvent.m in Sources */,
+				A08C3EB82126E73700284055 /* ssc_oper.mm in Sources */,
+				A08C3EC42126E73700284055 /* ARDCEODTURNClient.m in Sources */,
+				A08C3EC12126E73700284055 /* RCDevice.m in Sources */,
+				A08C3EB72126E73700284055 /* ssc_sip.mm in Sources */,
+				A08C3EAA2126E73700284055 /* RCDeviceDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A08C3E622126E72900284055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A08C3E632126E72900284055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A08C3E652126E72900284055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GV34R77W7T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlqaTechRTC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alqatech.AlqaTechRTC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A08C3E662126E72900284055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GV34R77W7T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlqaTechRTC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alqatech.AlqaTechRTC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A08C3E562126E72900284055 /* Build configuration list for PBXProject "AlqaTechRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C3E622126E72900284055 /* Debug */,
+				A08C3E632126E72900284055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08C3E642126E72900284055 /* Build configuration list for PBXNativeTarget "AlqaTechRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C3E652126E72900284055 /* Debug */,
+				A08C3E662126E72900284055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A08C3E532126E72900284055 /* Project object */;
+}
